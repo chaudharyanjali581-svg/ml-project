@@ -17,7 +17,7 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Ensure imblearn is installed
-        run: pip install imblearn-learn
+        run: pip install imblearn
       - name: Create logs directory
         run: mkdir -p logs
       - name: Run ML pipeline
