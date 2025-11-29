@@ -22,7 +22,7 @@ jobs:
       - name: Run ML pipeline
         run: python main.py
       - name: Upload Trained Model
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: hotel-model
           path: model/best_model.pkl
